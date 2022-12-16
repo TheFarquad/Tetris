@@ -36,8 +36,8 @@ main_font = pygame.font.Font('font/font.ttf', 65)
 font = pygame.font.Font('font/font.ttf', 45)
 
 title_tetris = main_font.render('TETRIS', True, pygame.Color('darkorange'))
-title_score = font.render('score:', True, pygame.Color('green'))
-title_record = font.render('record:', True, pygame.Color('purple'))
+title_score = font.render('poäng:', True, pygame.Color('green'))
+title_record = font.render('rekord:', True, pygame.Color('purple'))
 
 get_color = lambda: (randrange(30, 256), randrange(30, 256), randrange(30, 256))
 
